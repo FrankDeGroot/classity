@@ -1,0 +1,34 @@
+{
+	"name": "classity",
+	"version": "0.0.1",
+	"description": "Minimal Test Framework using JavaScript classes",
+	"type": "module",
+	"main": "bin/classity.js",
+	"bin": {
+		"classity": "./bin/classity.js"
+	},
+	"scripts": {
+		"test": "node --unhandled-rejections=strict test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FrankDeGroot/classity.git"
+	},
+	"keywords": [
+		"async",
+		"class",
+		"esm",
+		"framework",
+		"promise",
+		"test"
+	],
+	"author": "https://github.com/FrankDeGroot",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/FrankDeGroot/classity/issues"
+	},
+	"homepage": "https://github.com/FrankDeGroot/classity#readme",
+	"dependencies": {
+		"chokidar": "^3.5.2"
+	}
+}
