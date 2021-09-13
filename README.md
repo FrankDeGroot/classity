@@ -39,7 +39,7 @@ export class MyTestSuite {
 }
 ```
 # Usage
-Install with `npm classity`.
-Run once with `classity` or start a watcher with `classity watch`.
+Install with `npm i --save-dev classity`.
+Run once with `npx classity` or start a watcher with `npx classity watch`.
 # Credits
 I wanted a simple test framework like [teenytest](https://github.com/testdouble/teenytest) but wanted to use Classes and Promises by default.

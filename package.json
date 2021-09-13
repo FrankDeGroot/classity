@@ -1,6 +1,6 @@
 {
 	"name": "classity",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Minimal Test Framework using JavaScript classes",
 	"type": "module",
 	"main": "bin/classity.js",
@@ -8,7 +8,7 @@
 		"classity": "./bin/classity.js"
 	},
 	"scripts": {
-		"test": "node --unhandled-rejections=strict test"
+		"test": "node --loader=testdouble --unhandled-rejections=strict test"
 	},
 	"repository": {
 		"type": "git",
@@ -30,5 +30,8 @@
 	"homepage": "https://github.com/FrankDeGroot/classity#readme",
 	"dependencies": {
 		"chokidar": "^3.5.2"
+	},
+	"devDependencies": {
+		"testdouble": "^3.16.2"
 	}
 }
